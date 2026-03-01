@@ -2591,4 +2591,9 @@ input[type="radio"]:checked + .chip{
   display: block;
 }
 
+body,
+.work__style,
+.home {
+  background-color: #F8F6F2 !important;
+}
 
