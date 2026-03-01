@@ -2578,17 +2578,6 @@ input[type="radio"]:checked + .chip{
   box-shadow: 0 1px 4px rgba(0,0,0,.15);
 }
 
-/* 모바일 스크롤박스 이미지 강제 표시 */
-.mobile-scrollbox {
-  height: auto !important;
-  max-height: none !important;
-  overflow: visible !important;
-}
 
-.mobile-scrollbox img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 
