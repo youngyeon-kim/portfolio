@@ -2578,6 +2578,17 @@ input[type="radio"]:checked + .chip{
   box-shadow: 0 1px 4px rgba(0,0,0,.15);
 }
 
+.mobile-scrollbox {
+  height: 600px;        /* 원하는 모바일 화면 높이 */
+  overflow-y: scroll;   /* 세로 스크롤만 */
+  overflow-x: hidden;
+  position: relative;
+}
 
+.mobile-scrollbox img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 
