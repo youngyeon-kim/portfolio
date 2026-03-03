@@ -254,7 +254,7 @@ main image
   opacity: 1 !important;   /* 항상 보이게 */
   animation: none !important; /* 애니메이션 제거 */
   transform: none !important;
-  width: 90%;
+  width: 100%;
   left: 0;
 }
 
