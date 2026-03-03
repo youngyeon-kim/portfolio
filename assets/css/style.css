@@ -2103,17 +2103,14 @@ article__header
 
 /* (선택) 모바일 주소창 변화로 잠깐 생기는 2중 스크롤까지 예방 */
 .main-banner{
-  height: 100vh;     /* 폴백 */
-  height: 100svh;    /* 안전 뷰포트 */
   min-height: 100dvh;
+  height: auto;
 }
-html { 
-  overflow-y: scroll !important; 
-   overflow-x: hidden;
+
+html, body {
+  overflow-x: hidden;
 }
-body { 
-  overflow-y: clip  !important; 
-}
+
 html.nav-open { 
   overflow: hidden !important; 
 }
@@ -2591,9 +2588,15 @@ input[type="radio"]:checked + .chip{
   display: block;
 }
 
-body,
-.work__style,
-.home {
+html, body {
+  background-color: #F8F6F2 !important;
+}
+
+.main-banner {
+  background-color: #F8F6F2 !important;
+}
+
+.nav {
   background-color: #F8F6F2 !important;
 }
 
