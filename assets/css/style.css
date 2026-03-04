@@ -454,7 +454,7 @@ article__header
 }
 
 .work__text {
-    margin-top: 80px;
+    margin-top: 170px;
     color: #0F2B5B;
     text-align: center;
     font-size: 1.4rem;
@@ -513,6 +513,12 @@ article__header
   height: auto;
   border-radius: 8px;
   transition: transform .35s ease, box-shadow .35s ease;
+}
+
+@media (max-width: 768px) {
+  .work__text {
+    margin-top: 20px;
+  }
 }
 
 /* === Scroll Progress Bar === */
@@ -2587,6 +2593,9 @@ input[type="radio"]:checked + .chip{
   height: auto;
   display: block;
 }
+
+
+
 
 html, body {
   background-color: #F8F6F2 !important;
